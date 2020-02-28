@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar_icon"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:background="@color/colorPrimary"
+            android:id="@+id/clear"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_action_clear"/>
+
+        <ImageButton
+            android:background="@color/colorPrimary"
+            android:id="@+id/load"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_action_load"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar_toolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:rating="0.0"
+            android:stepSize="1.0"
+            android:numStars="5"/>
+
+        <ImageButton
+            android:background="@color/colorPrimary"
+            android:id="@+id/clearRatingBar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_action_clear_ratingbar"/>
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:id="@+id/toolbar_star"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:gravity="center">-->
+
+        <!--<ImageButton-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:id="@+id/star1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:src="@drawable/ic_action_star"/>-->
+
+        <!--<ImageButton-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:id="@+id/star2"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:src="@drawable/ic_action_star"/>-->
+
+        <!--<ImageButton-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:id="@+id/star3"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:src="@drawable/ic_action_star"/>-->
+
+        <!--<ImageButton-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:id="@+id/star4"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:src="@drawable/ic_action_star"/>-->
+
+        <!--<ImageButton-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:id="@+id/star5"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:src="@drawable/ic_action_star"/>-->
+
+    <!--</LinearLayout>-->
+</LinearLayout>
+
+
+
